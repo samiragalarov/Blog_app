@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #845EC2;
+     position: fixed; 
+    z-index: 6;
+    display: none;
+   
+    
+
+   
+
+}
+nav.active{
+  background-color: #243a6f;
+  display: flex;
+  background-color: #845EC2;
+
+}
+nav ul{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+
+
+}
+nav ul li{
+    margin-right: 18px;
+    text-decoration: none;
+    list-style: none;
+
+}
+nav ul li a{
+    font-size:19px;
+    color: #ffffff;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logolink{
+  color: #111;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.sidenav{
+    width: 80%;
+    height: 100%;
+    display: none;
+
+  }
+  .hamurgertag{
+      display: none;
+      
+  }
+  .link{
+    text-decoration: none;
+    list-style: none;
+    font-size: larger;
+
+
+
+  }
+
+  
+
+  .linkbox{
+      width: 90px;
+      height: 50px;
+      display: flex;
+      border-radius: 17px;
+      align-items: center;
+      justify-content: center;
+      background-color: #9B89B3;
+
+  }
+  .linkbox1{
+    width: 90px;
+    height: 50px;
+    display: flex;
+    border-radius: 17px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: black;
+
+}
+.ProfileCircle{
+  position: relative;
+
+
+  height: 55px;
+  width: 55px;
+  background-color: #bbb;
+  border-radius: 50%;
+
+}
+.ProfileCircle img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+
+
+
+
+  @media only screen and (max-width: 750px) {
+    .sidenav {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+        z-index: 6;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      
+      }
+      
+      .sidenav a:hover{
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      .links{
+          display: none;
+      }
+      .hamurgertag{
+        display: block;
+        margin-right: 14px;
+        cursor: pointer;
+    }
+    
+    
+  }
+
+
+  @media screen and (max-width: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 25px;}
+    
+    .logo{
+      width: 30%;
+
+    
+    }
+    nav ul{
+      width: 70%;
+    }
+ 
+  }
+  

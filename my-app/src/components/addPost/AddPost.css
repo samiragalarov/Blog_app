@@ -1,0 +1,107 @@
+.addPost {
+    width: 60%;
+    height: 400px;
+    /* background: rgba(49,49,49,0.8); */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    position: relative;
+    top: 130px;
+    z-index: 15;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    /* transition: 0.5s ease; */
+    border: 1px solid rgb(212, 204, 204);
+
+
+
+
+}
+
+
+.addPost h1 {
+    margin-bottom: 15px;
+}
+
+.addPost div {
+    margin-bottom: 15px;
+}
+.addPost div select{
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgb(124, 119, 119);
+}
+
+.AddpostInput {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 2px solid rgb(222, 215, 215);
+    border-radius: 5px;
+    padding: 14px 20px;
+    border-top: solid rgb(222, 215, 215);
+    border-left: solid rgb(222, 215, 215);
+    border-right: solid rgb(222, 215, 215);
+
+}
+
+.addPost textarea {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 25px;
+    outline: none;
+    border: 2px solidrgb(179, 175, 175);
+    border-radius: 5px;
+    border-top: 0.5px solid rgb(222, 215, 215);
+    border-left: 0.5px solid rgb(222, 215, 215);
+    border-right: 0.5px solid rgb(222, 215, 215);
+    padding: 14px 20px;
+
+}
+.closeButton{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.PopupButton{
+
+
+    width: 160px;
+    height: 50px;
+    background-color: #0089BA;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: Open Sans;
+    font-weight:900;
+    cursor: pointer;
+
+}
+.PopupButtonBox{
+    width: 90%;
+
+    height: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between   ;
+}
+
+@media only screen and (max-width: 750px) {
+    .addPost{
+        width: 90%;
+        
+   
+    }
+    
+}

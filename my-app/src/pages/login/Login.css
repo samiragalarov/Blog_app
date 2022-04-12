@@ -1,0 +1,195 @@
+.loginPage{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.loginBox{
+    width: 75%;
+    height: 620px;
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+
+}
+.loginImage{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    background-color: wheat;
+    position:relative;
+
+
+}
+.loginImage img{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.loginBoxInner{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+
+}
+.LoginInputBox{
+    width: 60%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
+}
+.LoginBoxHead{
+    width: 100%;
+    height:22% ;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+
+}
+.LoginBoxHead h1{
+    color: #1A202C;
+}
+.LoginBoxPassword{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+
+}
+.LoginBoxPassword input{
+    width: 95%;
+    height: 45%;
+    outline: none;
+    border: 0.5px solid rgb(120, 118, 118);
+    border-radius: 5px;
+    padding: 14px 20px;
+ 
+    
+    
+
+}
+.LoginBoxPassword label{
+    margin-bottom: 7px;
+    
+}
+.LoginBoxEmail{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.LoginBoxEmail label{
+    margin-bottom: 7px;
+}
+.LoginBoxEmail input{
+    width: 95%;
+    height: 45%;
+    outline: none;
+    border: 0.5px solid rgb(120, 118, 118);
+    border-radius: 5px;
+    padding: 14px 20px;
+
+
+}
+.LoginBoxRadio{
+    width: 100%;
+    height:12% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 18px;
+   
+
+
+}
+.loginRadioinput{
+    margin-right: 8px;
+}
+.LoginBoxButton{
+    width: 100%;
+    height:22% ;
+    display: flex;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.LoginBoxButton button{
+    width: 95%;
+    height: 60%;
+    background-color: #9B89B3;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+
+
+
+}
+
+@media only screen and (max-width: 950px) {
+    .loginImage{
+        display: none;
+    }
+    .loginBoxInner{
+        width: 100%;
+
+    }
+    .loginBox{
+        width: 95%;
+    }
+    .LoginInputBox{
+        width: 55%;
+    }
+
+    
+    
+    
+}
+
+@media only screen and (max-width: 650px) {
+    .loginImage{
+        display: none;
+    }
+    .loginBoxInner{
+        width: 100%;
+
+    }
+    .LoginInputBox{
+        width: 85%;
+    }
+
+    
+    
+    
+}

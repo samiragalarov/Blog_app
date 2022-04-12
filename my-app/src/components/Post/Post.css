@@ -1,0 +1,92 @@
+.Post {
+    width: 354px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 10px;
+    margin-bottom: 25px;
+   
+
+}
+
+.imageSection {
+    width: 100%;
+    height: 46%;
+    display: flex;
+    position: relative;
+
+
+}
+
+.imageSection img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+}
+
+.textSection {
+    width: 100%;
+    height: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+
+
+}
+
+.textSection p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6E798C;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.buttonSection {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.buttonSection button{
+    width: 97%;
+    height: 85%;
+    background-color: #845EC2;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: Open Sans;
+    font-weight:900;
+    cursor: pointer;
+    
+
+
+}
+.buttonSection button a{
+    color: white;
+    font-family: Open Sans;
+    font-weight:900;
+    text-decoration: none;
+
+}

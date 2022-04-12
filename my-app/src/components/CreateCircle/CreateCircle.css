@@ -1,0 +1,21 @@
+.dot {
+    height: 85px;
+    width: 85px;
+    background-color: #0089BA;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 6;
+
+  }
+  .circle1{
+      color: white;
+    
+  }
