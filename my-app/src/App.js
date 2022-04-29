@@ -57,25 +57,6 @@ function App() {
 
             <Route path="*" element={<Navigate to={user ? "/" : "/login"} />} />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           </>
 
 
